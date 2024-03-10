@@ -1,0 +1,118 @@
+:root {
+    --primary-color-100: #191921;
+    --primary-color-200: #262a35;
+    --segund-color: #1d5af3;
+    --font-color: #dbdddc;
+    --black-color: #181818;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    padding: 0 2em;
+    overflow: hidden;
+    user-select: none;
+
+    background: var(--black-color);
+}
+
+h1,
+a,
+span,
+textarea,
+input {
+    margin: 0;
+    font-size: 1.6em;
+    color: var(--font-color);
+}
+
+.painelTranslate {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: clamp(25rem, 42rem, 42rem);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0px rgb(0 0 0 / .8);
+    background: var(--primary-color-100);
+}
+.painelTranslate > * {
+    margin-bottom: 1.25rem;
+    border: none;
+    border-radius: 5px;
+}
+.painelTranslate > :last-child {
+    margin-bottom: 0;
+}
+
+.linkPage {
+    position: absolute;
+    top: 2.1rem;
+    right: 2.1rem;
+    font-size: 2em;
+    transform: rotate(90deg);
+}
+.linkPage:active {
+    color: color-mix(in srgb, var(--font-color), transparent 20%);
+}
+
+.painelTranslate_title {
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.subTitle {
+    font-size: 1.2em;
+}
+
+.painelTranslate_input,
+.painelTranslate_output {
+    padding: .5em;
+    resize: none;
+    background: var(--primary-color-200);
+}
+.painelTranslate_input:focus {
+    outline: 2px solid var(--segund-color);
+}
+.painelTranslate_output {
+    color: color-mix(in srgb, var(--font-color), transparent 40%);
+}
+
+.painelTranslate_input::-webkit-scrollbar,
+.painelTranslate_output::-webkit-scrollbar {
+    width: 8px;
+}
+.painelTranslate_input::-webkit-scrollbar-track,
+.painelTranslate_output::-webkit-scrollbar-track {
+    background-color: var(--primary-color-100);
+}
+.painelTranslate_input::-webkit-scrollbar-thumb,
+.painelTranslate_output::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 2px solid var(--primary-color-100);
+    background-color: color-mix(in srgb, #000, #fff 40%);
+}
+
+.painelTranslate_btn {
+    padding: .8em 0;
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: var(--segund-color);
+}
+.painelTranslate_btn:active {
+    background: color-mix(in srgb, var(--segund-color), transparent 20%);
+}
