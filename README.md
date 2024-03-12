@@ -2,7 +2,7 @@
 Este é um pequeno aplicativo web que permite converter texto em binário e vice-versa. Ele oferece uma interface amigável onde você pode inserir seus dados e obter a conversão, instantaneamente.
 
 ## Como Utilizar
-> - Selecionar Direção da Conversão: Escolha se deseja converter de texto para binário ou de binário para texto utilizando do botão fornecido.
+> - O botão de troca de conversão: Escolha se deseja converter de texto para binário ou de binário para texto utilizando do botão fornecido.
 > - Inserir Texto ou binário: Digite a informa que deseja converter no campo de entrada correspondente.
 > - Converter: Clique no botão "Converter" para realizar a conversão.
 > - Resultado: O texto ou binário convertido será exibido na área de saída abaixo dos campos de entrada.
