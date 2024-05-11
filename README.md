@@ -20,6 +20,9 @@ Para executar este projeto localmente, siga estes passos:
 - Faça download do repositório na sua máquina local.
 - Abra o arquivo **"index.html"** em seu navegador da web preferido.
 
+## Visual
+![Image](assests/image/Example.png)
+
 ## Funcionalidades
 > - Conversão de Texto para Binário
 > - Conversão de Binário para Texto
