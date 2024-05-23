@@ -24,6 +24,3 @@ Para executar este projeto localmente, siga estes passos:
 > - Conversão de Texto para Binário
 > - Conversão de Binário para Texto
 > - Interface Amigável para o Usuário
-
-## Agradecimento
-Este projeto foi criado como um exercício de aprendizado.
