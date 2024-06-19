@@ -22,23 +22,23 @@
 <body>
     
     <form class="painelTranslate" id="form">
-        <a href="assests/pages/convertBinaryToText.html" class="linkPage"> <i class="fa-solid fa-right-left"></i> </a>
+        <button class="linkPage"> <i class="fa-solid fa-right-left"></i> </button>
         
         <h1 class="painelTranslate_title">
             Tradutor Binário
         </h1>
         <span class="subTitle">
-            Texto &#8594; Binário
+            <span textInput="text">Texto</span> &#8594; <span textOutput="binary">Binário</span>
         </span>
         
-        <textarea class="painelTranslate_input" placeholder="Informe um texto para codificar em binário:" cols="30" rows="8" id="inText" autocapitalize="off" autofocus></textarea>
-        <textarea class="painelTranslate_output" placeholder="Saída do codificador:" cols="30" rows="8" id="outBinary" disabled></textarea>
+        <textarea class="painelTranslate_input" translate="text" placeholder="Informe um texto para codificar em binário:" cols="30" rows="8" autocapitalize="off" autofocus></textarea>
+        <textarea class="painelTranslate_output" output="binary" placeholder="Saída do codificador:" cols="30" rows="8" disabled></textarea>
         
         <input type="submit" value="Converter" class="painelTranslate_btn" id="btn">
     </form>
 
 </body>
 
-<script src="assests/js/translatorToBinary.js"></script>
+<script src="assests/js/main.js"></script>
 
 </html>

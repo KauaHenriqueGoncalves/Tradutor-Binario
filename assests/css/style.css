@@ -59,7 +59,11 @@ input {
     top: 2.1rem;
     right: 2.1rem;
     font-size: 2em;
+    border: none;
+    background-color: transparent;
+    color: var(--font-color);
     transform: rotate(90deg);
+    cursor: pointer;
 }
 .linkPage:active {
     color: color-mix(in srgb, var(--font-color), transparent 20%);
@@ -72,8 +76,8 @@ input {
     letter-spacing: 1px;
 }
 
-.subTitle {
-    font-size: 1.2em;
+.subTitle > *{
+    font-size: .8em;
 }
 
 .painelTranslate_input,
